@@ -160,11 +160,12 @@ header p span {
 
 .abilities .abilityGrid h3 {
   color: white;
-  text-align: center;
 }
 
-.abilities .abilityGrid .abilityContainer {
-  padding-left: 20px;
+@media screen and (max-width: 650px) {
+  .abilities .abilityGrid h3 {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 650px) {

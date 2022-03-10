@@ -14,14 +14,14 @@
 
         h3 {
             color: white;
-            padding-left: 20px;
+            text-align: center;
         }
 
         .abilityContainer {
             padding-left: 20px;
 
             @media screen and (max-width :650px) {
-                padding-top: 20px;
+                padding-top: 30px;
             }
         }
 

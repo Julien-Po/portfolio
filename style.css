@@ -142,6 +142,8 @@ header p span {
           align-items: center;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 650px) {
@@ -249,5 +251,160 @@ header p span {
   100% {
     stroke-dashoffset: 283;
   }
+}
+
+.portfolioContainer .cardFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  gap: 150px;
+}
+
+@media screen and (max-width: 950px) {
+  .portfolioContainer .cardFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.portfolioContainer .mountainCard {
+  width: 20%;
+}
+
+@media screen and (max-width: 950px) {
+  .portfolioContainer .mountainCard {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+.portfolioContainer .mountainCard h3 {
+  color: white;
+  text-align: center;
+}
+
+.portfolioContainer .mountainCard img {
+  height: 150px;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 950px) {
+  .portfolioContainer .mountainCard img {
+    height: 250px;
+  }
+}
+
+.portfolioContainer .meetCard {
+  width: 20%;
+}
+
+@media screen and (max-width: 950px) {
+  .portfolioContainer .meetCard {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+.portfolioContainer .meetCard h3 {
+  color: white;
+  text-align: center;
+}
+
+.portfolioContainer .meetCard img {
+  height: 150px;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 950px) {
+  .portfolioContainer .meetCard img {
+    height: 250px;
+  }
+}
+
+.portfolioContainer .appCard {
+  width: 20%;
+}
+
+@media screen and (max-width: 950px) {
+  .portfolioContainer .appCard {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+.portfolioContainer .appCard h3 {
+  color: white;
+  text-align: center;
+}
+
+.portfolioContainer .appCard img {
+  height: 150px;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 950px) {
+  .portfolioContainer .appCard img {
+    height: 250px;
+  }
+}
+
+.portfolioContainer .linkContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.portfolioContainer a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.portfolioContainer a:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

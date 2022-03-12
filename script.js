@@ -36,6 +36,7 @@ function animate_php_Circle() {
     }
   }, 40);
 }
+
 animate_Css_Circle();
 animate_Js_Circle();
 animate_php_Circle();
